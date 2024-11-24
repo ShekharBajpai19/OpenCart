@@ -47,6 +47,14 @@
             <version>${aspectj.version}</version>
         </dependency>
   
+
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.36</version> <!-- Make sure you have the latest version -->
+        <scope>provided</scope>
+    </dependency> 
+  
   </dependencies>
   
   
