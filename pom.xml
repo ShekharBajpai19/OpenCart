@@ -20,8 +20,8 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.10.2</version>
-    <scope>test</scope>
+    <version>7.9.0</version>
+    <scope>compile</scope>
 </dependency>
   
   <dependency>
@@ -48,7 +48,9 @@
         <artifactId>allure-commandline</artifactId>
         <version>2.18.1</version>
         <scope>runtime</scope>
-    </dependency><dependency>
+    </dependency>
+    
+    <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>${aspectj.version}</version>
@@ -58,7 +60,7 @@
     <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
-        <version>1.18.36</version> <!-- Make sure you have the latest version -->
+        <version>1.18.36</version> 
         <scope>provided</scope>
     </dependency> 
   
